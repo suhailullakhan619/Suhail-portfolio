@@ -1,5 +1,5 @@
-import React, { ComponentPropsWithoutRef, CSSProperties } from "react"
-
+import type{ ComponentPropsWithoutRef, CSSProperties } from "react";
+import React from "react";
 import { cn } from "../../lib/utils"
 
 export interface ShimmerButtonProps extends ComponentPropsWithoutRef<"button"> {

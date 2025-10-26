@@ -1,15 +1,26 @@
-
+import { useEffect } from 'react'
 import Particles from '../animation/Particles'
 import BlurText from '../animation/BlurText'
 import {ShimmerButton} from '../ui/shimmer-button'
 import heroSectionimg from '../../assets/heroSectionimg.png'
 import './home1.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 
 const Home1 = () => {
+   useEffect(() => {
+      AOS.init({
+        duration: 1000, // animation duration in ms
+        once: true, // whether animation should happen only once
+        easing: 'ease-in-out', // animation easing
+      });
+      AOS.refresh();
+    }, []);
   return (
    <>
    <div style={{ width: '100%', height: '100vh', position: 'relative', background:'black',zIndex:0 ,display:'flex',alignItems:'center',justifyContent:'center' }}>
-    <div style={{position:'fixed',inset:0,zIndex:-10}}>
+    <div style={{position:'absolute',inset:0,zIndex:-10,height: '100%'}}>
   <Particles 
     particleColors={['#ffffff', '#ffffff']}
     particleCount={600}
@@ -42,7 +53,7 @@ const Home1 = () => {
                                 <ShimmerButton className='resumebtn'>Resume</ShimmerButton>
                                 </a>
         </div>
-        <img className='heroSectionimage'  src={heroSectionimg} alt="heroImg" />
+        <img data-aos="fade-down" className='heroSectionimage'  src={heroSectionimg} alt="heroImg" />
         </div>
 </div>
    </>

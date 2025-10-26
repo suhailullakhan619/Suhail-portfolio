@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import Logo from '../../assets/S letter Logo.svg'
 import { Link } from 'react-router-dom'
 import {  Menu } from 'lucide-react'
@@ -8,6 +8,12 @@ import { SquareX } from 'lucide-react'
 import './Navbar.css'
 const Navbar = () => {
   const [menu,setMenu]=useState(false);
+   const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth', // smooth scrolling
+    });
+   }
   return (
    <>
    <header>
@@ -16,7 +22,7 @@ const Navbar = () => {
          <img className='w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] cursor-pointer ' src={Logo} alt="Logo" />
          </Link>
             <div className='sm:hidden cursor-pointer' onClick={() => setMenu(!menu)}>
-          {menu ? <SquareX size={30} /> : <Menu size={30} />}
+          {menu ? <SquareX  size={30} /> : <Menu onClick={scrollToTop} size={30} />}
             </div>
         <div className='hidden sm:flex sm:flex-row sm:gap-8'>
                <div className="relative group cursor-pointer">
