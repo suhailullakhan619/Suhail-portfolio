@@ -1,0 +1,60 @@
+.skillsMaindiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #EDF9FE;
+
+}
+.skillslogodiv{
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 45px;
+  flex-wrap: wrap;
+}
+.logodiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: auto;
+  border-radius: 50%;
+  gap: 20px;
+  position: relative;
+}
+.Logotag{
+  position: absolute;
+  top: -30px;
+  background: #000;
+  white-space: nowrap;
+  color: white;
+  padding: 2px 8px;
+  opacity: 0;
+  border-radius: 10px;
+  transition: opacity 0.3s ease;
+}
+.logoimg{
+  max-width: 50px;
+  width: 100%;
+  height: auto;
+}
+.logodiv:hover .Logotag{
+  opacity: 1;
+}
+
+@media (min-width:800px) {
+  .logoimg{
+  max-width: 80px;
+  width: 100%;
+  height: auto;
+}
+}

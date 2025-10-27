@@ -42,7 +42,7 @@ const Navbar = () => {
                 <span className='absolute bottom-0 left-0 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full'></span>
               </div>
               <div className='relative group cursor-pointer active:scale-[0.8]'>
-                 <span className='text-black'>Contact</span>
+                 <span className='text-black'>Contact Me</span>
                  <span className='absolute left-0 bottom-0 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full'></span>
               </div>
            </div>

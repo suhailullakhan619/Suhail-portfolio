@@ -25,7 +25,7 @@ const Education = () => {
                       </div>
                       {/* college details */}
                        
-                        <div data-aos="fade-down" className='aboutclg'>
+                        <div data-aos="zoom-in" className='aboutclg'>
                         <p className='text-[20px] font-extrabold max-w-[260px] sm:max-w-full'>Sapthagiri College of Engineering</p>
                         <p className='text-[17px] font-semibold max-w-[260px] sm:max-w-full'>B.E. in Electronics and Communication Engineering</p>
                         <div className='text-[17px] font-semibold'>CGPA - 8.25</div>
@@ -49,7 +49,7 @@ const Education = () => {
                       </div>
                       {/* college details */}
                        
-                        <div data-aos="fade-down" className='aboutclg'>
+                        <div data-aos="zoom-in" className='aboutclg'>
                         <p className='text-[20px] font-extrabold '>Stella Maris P U College </p>
                            
                         <div className='text-[17px] font-semibold '>Percentage - 82%</div>
