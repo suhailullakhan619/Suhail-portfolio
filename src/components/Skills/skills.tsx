@@ -1,4 +1,3 @@
-import React from 'react'
 import './skills.css'
 import htmlLogo from './img/html logo.svg'
 import cssLogo from './img/css logo.svg'
