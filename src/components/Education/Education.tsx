@@ -51,13 +51,13 @@ const Education = () => {
                       {/* college details */}
                        
                         <div data-aos="zoom-in" className='aboutclg'>
-                        <p className='text-[20px] font-extrabold '>Stella Maris P U College </p>
+                        <p className='text-[20px] font-extrabold max-w-[260px] sm:max-w-full'>Stella Maris P U College </p>
                            
-                        <div className='text-[17px] font-semibold '>Percentage - 82%</div>
+                        <div className='text-[17px] font-semibold  '>Percentage - 82%</div>
                         <div className='text-[17px] font-semibold'>2019 - 2021</div>
-                        <p className='text-[20px] font-extrabold'>Stella Maris High School</p>
+                        <p className='text-[20px] font-extrabold max-w-[260px] sm:max-w-full'>Stella Maris High School</p>
                            
-                        <div className='text-[17px] font-semibold'>Percentage - 77.12%</div>
+                        <div className='text-[17px] font-semibold '>Percentage - 77.12%</div>
                         <div className='text-[17px] font-semibold'>2018 - 2019</div>
                         <div className='aboutbtndiv'>
                           <a href="https://www.stellaeducationalacademy.in/" target="_blank" rel="noopener noreferrer">
