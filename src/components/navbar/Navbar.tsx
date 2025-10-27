@@ -25,23 +25,23 @@ const Navbar = () => {
           {menu ? <SquareX  size={30} /> : <Menu onClick={scrollToTop} size={30} />}
             </div>
         <div className='hidden sm:flex sm:flex-row sm:gap-8'>
-               <div className="relative group cursor-pointer">
+               <div className="relative group cursor-pointer active:scale-[0.8]">
                  <span className="text-black ">Home</span>
-                 <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full"></span>
+                 <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full "></span>
               </div>
-              <div className='relative group cursor-pointer'>
+              <div className='relative group cursor-pointer active:scale-[0.8]'>
                  <span className='text-black'>Education</span>
                  <span className='absolute left-0 bottom-0 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full'></span>
               </div>
-               <div className='relative group cursor-pointer'>
+               <div className='relative group cursor-pointer active:scale-[0.8]'>
                  <span className='text-black'>Skills</span>
                  <span className='absolute left-0 bottom-0 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full'></span>
               </div>
-              <div className='relative group cursor-pointer '>
+              <div className='relative group cursor-pointer active:scale-[0.8] '>
                 <span className='text-black'>Experience</span>
                 <span className='absolute bottom-0 left-0 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full'></span>
               </div>
-              <div className='relative group cursor-pointer'>
+              <div className='relative group cursor-pointer active:scale-[0.8]'>
                  <span className='text-black'>Contact</span>
                  <span className='absolute left-0 bottom-0 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full'></span>
               </div>
