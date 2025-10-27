@@ -19,6 +19,7 @@ const Home1 = () => {
     }, []);
   return (
    <>
+   <section>
    <div style={{ width: '100%', height: '100vh', position: 'relative', background:'black',zIndex:0 ,display:'flex',alignItems:'center',justifyContent:'center' }}>
     <div style={{position:'absolute',inset:0,zIndex:-10,height: '100%'}}>
   <Particles 
@@ -56,6 +57,7 @@ const Home1 = () => {
         <img data-aos="fade-down" className='heroSectionimage'  src={heroSectionimg} alt="heroImg" />
         </div>
 </div>
+</section>
    </>
   )
 }

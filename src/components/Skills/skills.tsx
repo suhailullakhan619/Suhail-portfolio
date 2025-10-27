@@ -12,6 +12,7 @@ import postmanLogo from './img/postman logo.svg'
 import githubLogo from './img/github logo.svg'
 const Skills = () => {
   return (
+    <section>
     <div className='skillsMaindiv' >
           
           <div data-aos="fade-down" className='text-[28px] font-bold sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl '>Skills
@@ -78,6 +79,7 @@ const Skills = () => {
           
 
     </div>
+    </section>
   )
 }
 
