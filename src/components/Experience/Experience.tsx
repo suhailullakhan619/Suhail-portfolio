@@ -1,4 +1,3 @@
-import React from 'react'
 import './Experience.css'
 import prinstonlogo from './img/image.png'
 const Experience = () => {
