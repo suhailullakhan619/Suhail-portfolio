@@ -1,0 +1,56 @@
+.contactMaindiv{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px 80px 20px;
+  flex-direction: column;
+  gap: 30px;
+background: #EDF9FE;
+}
+
+.connectContentDiv{
+  max-width: 900px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap:10px
+}
+.btndiv{
+  width: 145px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.connectbtn{
+  width: 100%;
+  padding: 10px 20px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+@media (max-width:400px) {
+  .connectContentDiv{
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+.connectbtn:active{
+  transform: scale(0.6);
+}
+.connectbtn:hover .logo{
+  color: #4169E1;
+}
+.connectbtn:hover {
+  border: 2px solid #4169E1;
+}
