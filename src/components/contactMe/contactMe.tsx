@@ -48,7 +48,7 @@ const ContactMe = () => {
                 <span className="logo">
                   <Linkedin size={30} />
                 </span>
-                linkedIn
+                LinkedIn
               </button>
             </a>
           </div>
@@ -69,7 +69,7 @@ const ContactMe = () => {
                   {" "}
                   <Github size={30} />
                 </span>
-                Github
+                GitHub
               </button>
             </a>
             <a
@@ -86,7 +86,7 @@ const ContactMe = () => {
                 <span className="logo">
                   <CircleUserRound size={30} />
                 </span>
-                Whatsapp
+                WhatsApp
               </button>
             </a>
           </div>
