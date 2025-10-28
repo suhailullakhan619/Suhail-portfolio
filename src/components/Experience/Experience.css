@@ -69,6 +69,11 @@ border-radius: 10px;
 cursor: pointer;
 
 }
+.contentdiv{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
 
 @media (max-width:450px) {
   .ExperienceMaindiv{

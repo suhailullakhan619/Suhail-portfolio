@@ -7,6 +7,7 @@ const MenuContent = () => {
           <div className='h-[30px]   hover:text-black hover:font-bold cursor-pointer active:font-bold active:scale-[1.1] transition-all duration-300'>Education</div>
           <div className='h-[30px]   hover:text-black hover:font-bold cursor-pointer active:font-bold active:scale-[1.1] transition-all duration-300'>Skills</div>
           <div className='h-[30px]   hover:text-black hover:font-bold cursor-pointer active:font-bold active:scale-[1.1] transition-all duration-300'>Experiences</div>
+          <div className='h-[30px]   hover:text-black hover:font-bold cursor-pointer active:font-bold active:scale-[1.1] transition-all duration-300'>Projects</div>
           <div className='h-[30px]   hover:text-black hover:font-bold cursor-pointer active:font-bold active:scale-[1.1] transition-all duration-300'>Contact Me</div>
       </div>
   

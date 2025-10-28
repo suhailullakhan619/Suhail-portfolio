@@ -20,16 +20,31 @@ const Experience = () => {
 
 
                       <div className='internshipDes'>
-                      <p>🚀 <span className='text-[17px] font-semibold'>Developed and deployed</span> responsive web applications using <span className='text-[17px] font-semibold' > HTML, CSS, JavaScript, React, and Tailwind CSS.</span>
+                       <div className='contentdiv'>
+                          <div>🚀</div>
+                          <p><span className='text-[17px] font-semibold'>Developed and deployed</span> responsive web applications using <span className='text-[17px] font-semibold' > HTML, CSS, JavaScript, React, and Tailwind CSS.</span>
                       </p>
+                        </div>
 
-                      <p>🎨 Specialized in <span className='text-[17px] font-semibold'>frontend development,</span> building <span className='text-[17px] font-semibold'>interactive and user-focused interfaces</span>that enhance usability and design consistency.</p>
+                         <div className='contentdiv'>
+                          <div>🎨</div>
+                          <p> Specialized in <span className='text-[17px] font-semibold'>frontend development,</span> building <span className='text-[17px] font-semibold'>interactive and user-focused interfaces</span>that enhance usability and design consistency.</p>
+                        </div>
+                     
+                      <div className='contentdiv'>
+                          <div>🔗</div>
+                           <p><span className='text-[17px] font-semibold'>Integrated RESTful APIs</span> from backend services to display dynamic data and improve functionality across projects.</p>
+                        </div>
 
-                      <p>🔗<span className='text-[17px] font-semibold'>Integrated RESTful APIs</span> from backend services to display dynamic data and improve functionality across projects.</p>
+                    <div className='contentdiv'>
+                          <div>🤝</div>
+                          <p> <span className='text-[17px] font-semibold'>Collaborated with backend developers</span> to connect frontend components with Node.js and MongoDB-based APIs.</p>
+                        </div>
 
-                      <p>🤝 <span className='text-[17px] font-semibold'>Collaborated with backend developers</span> to connect frontend components with Node.js and MongoDB-based APIs.</p>
-
-                       <p>🧠 Strengthened hands-on skills through an <span className='text-[17px] font-semibold'>internship</span> and <span className='text-[17px] font-semibold'>personal projects,</span> following real-world development workflows and Git version control.</p>
+                        <div className='contentdiv'>
+                          <div>🧠</div>
+                          <p> Strengthened hands-on skills through an <span className='text-[17px] font-semibold'>internship</span> and <span className='text-[17px] font-semibold'>personal projects,</span> following real-world development workflows and Git version control.</p>
+                        </div>
 
                       </div> 
 
