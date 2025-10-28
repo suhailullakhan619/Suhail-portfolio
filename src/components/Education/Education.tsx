@@ -4,7 +4,7 @@ import sapthagiriLogo from '../../assets/Sapthagiri Logo.jpeg'
 import StellaLogo from '../../assets/stellaLogo.png'
 const Education = () => {
   return (
-    <section>
+    <section id='Education'>
     <div className='EductionMainDiv'>
               <div data-aos="fade-down" className='text-[28px] font-bold sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl '>Education
                 

@@ -2,7 +2,7 @@ import './Experience.css'
 import prinstonlogo from './img/image.png'
 const Experience = () => {
   return (
-    <section>
+    <section id='Experience'>
     <div className='ExperienceMaindiv'>
 
           <div  data-aos="fade-down" className='text-[28px] font-bold sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl '>Experience
