@@ -55,7 +55,7 @@ const Navbar = () => {
   </div>
 </header>
       {menu  && <div className='flex w-full z-40 sm:hidden ' 
-    ><MenuContent/></div>}
+    ><MenuContent menu={menu} setMenu={setMenu}/></div>}
 
 
 
