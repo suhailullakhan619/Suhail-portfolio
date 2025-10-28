@@ -5,6 +5,7 @@ import { Linkedin } from "lucide-react";
 import { Twitter } from "lucide-react";
 const ContactMe = () => {
   return (
+    <section>
     <div className="contactMaindiv">
       <div
         data-aos="fade-down"
@@ -70,6 +71,7 @@ const ContactMe = () => {
       </div>
       <hr style={{width:'100%'}} />
     </div>
+    </section>
   );
 };
 
