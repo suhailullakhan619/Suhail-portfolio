@@ -97,6 +97,15 @@
   border-radius: 25px;
 
 }
+.Name{
+  display: flex; 
+  font-size: 30px; 
+  font-weight: bold; 
+  color: white;
+}
+.descreption{
+  font-size: 16px;
+}
 .resumebtn{
   padding: 10px 40px;
   font-size: 16px;

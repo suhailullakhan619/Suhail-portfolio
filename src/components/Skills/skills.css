@@ -51,6 +51,11 @@
   opacity: 1;
 }
 
+@media (max-width:450px) {
+  .skillsMaindiv{
+    padding: 30px 20px;
+  }
+}
 @media (min-width:800px) {
   .logoimg{
   max-width: 80px;

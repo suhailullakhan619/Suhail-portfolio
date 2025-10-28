@@ -1,18 +1,8 @@
-import { useEffect } from 'react';
-import AOS from 'aos'
 import './Education.css'
 import 'aos/dist/aos.css'
 import sapthagiriLogo from '../../assets/Sapthagiri Logo.jpeg'
 import StellaLogo from '../../assets/stellaLogo.png'
 const Education = () => {
-   useEffect(() => {
-    AOS.init({
-      duration: 1000, // animation duration in ms
-      once: true, // whether animation should happen only once
-      easing: 'ease-in-out', // animation easing
-    });
-    AOS.refresh();
-  }, []);
   return (
     <section>
     <div className='EductionMainDiv'>

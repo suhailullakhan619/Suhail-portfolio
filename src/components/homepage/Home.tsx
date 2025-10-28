@@ -12,7 +12,7 @@ const Home1 = () => {
    useEffect(() => {
       AOS.init({
         duration: 1000, // animation duration in ms
-        once: true, // whether animation should happen only once
+        once: false, // whether animation should happen only once
         easing: 'ease-in-out', // animation easing
       });
       AOS.refresh();
