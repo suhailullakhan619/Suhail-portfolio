@@ -1,7 +1,6 @@
 
 import  { useState } from 'react'
 import Logo from '../../assets/S letter Logo.svg'
-import { Link } from 'react-router-dom'
 import {  Menu } from 'lucide-react'
 import MenuContent from './MenuContent'
 import { SquareX } from 'lucide-react'
