@@ -28,6 +28,9 @@ background: #EDF9FE;
   justify-content: center;
   gap: 30px;
 }
+.link{
+ width: 100%;
+}
 .connectbtn{
   width: 100%;
   padding: 10px 20px;
@@ -38,6 +41,7 @@ background: #EDF9FE;
   align-items: center;
   justify-content: center;
   gap: 15px;
+  cursor: pointer;
 }
 @media (max-width:400px) {
   .connectContentDiv{
