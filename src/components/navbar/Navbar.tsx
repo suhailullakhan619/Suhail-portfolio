@@ -18,9 +18,9 @@ const Navbar = () => {
    <>
    <header>
    <div className='navmainDiv bg-blue-100'>
-         <Link to='/'>
+         <a href='#Home'>
          <img className='w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] cursor-pointer ' src={Logo} alt="Logo" />
-         </Link>
+         </a>
             <div className='sm:hidden cursor-pointer' onClick={() => setMenu(!menu)}>
           {menu ? <SquareX  size={30} /> : <Menu onClick={scrollToTop} size={30} />}
             </div>
