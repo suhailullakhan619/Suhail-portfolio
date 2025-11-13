@@ -50,7 +50,7 @@ const Home1 = () => {
                                   className="descreption"
                                 />
 
-                                  <a href="https://tinyurl.com/SuhailCV2" target="_blank" rel="Suhail Resume">
+                                  <a href="https://tinyurl.com/SuhailResumeFrontend" target="_blank" rel="Suhail Resume">
                                 <ShimmerButton className='resumebtn'>Resume</ShimmerButton>
                                 </a>
         </div>
