@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import Particles from '../animation/Particles'
 import BlurText from '../animation/BlurText'
-import {ShimmerButton} from '../ui/shimmer-button'
+import {RainbowButton} from '../ui/rainbow-button'
 import heroSectionimg from '../../assets/heroSectionimg.png'
 import './home1.css'
 import AOS from 'aos'
@@ -51,7 +51,7 @@ const Home1 = () => {
                                 />
 
                                   <a href="https://tinyurl.com/SuhailResumeFrontend" target="_blank" rel="Suhail Resume">
-                                <ShimmerButton className='resumebtn'>Resume</ShimmerButton>
+                                <RainbowButton className='resumebtn'>Resume</RainbowButton>
                                 </a>
         </div>
         <img data-aos="fade-down" className='heroSectionimage'  src={heroSectionimg} alt="heroImg" />
