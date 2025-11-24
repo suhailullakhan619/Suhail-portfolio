@@ -9,6 +9,8 @@ import figmaLogo from './img/figma logo.svg'
 import mongodbLogo from './img/mongodb logo.svg'
 import postmanLogo from './img/postman logo.svg'
 import githubLogo from './img/github logo.svg'
+import nextjsLogo from'./img/nextjs logo.svg'
+import reduxLogo from './img/redux logo.svg'
 const Skills = () => {
   return (
     <section id='Skills'>
@@ -48,6 +50,16 @@ const Skills = () => {
             <div data-aos="zoom-in-up" className='logodiv'>
               <p className='Logotag'>TailwindCss</p>
               <img className='logoimg' src={tailwindcssLogo} alt="javascript" />
+            </div>
+
+              <div data-aos="zoom-in-up" className='logodiv'>
+              <p className='Logotag'>Nextjs</p>
+              <img className='logoimg' src={nextjsLogo} alt="javascript" />
+            </div>
+
+              <div data-aos="zoom-in-up" className='logodiv'>
+              <p className='Logotag'>Redux</p>
+              <img className='logoimg' src={reduxLogo} alt="javascript" />
             </div>
             
             <div data-aos="zoom-in-up" className='logodiv'>
