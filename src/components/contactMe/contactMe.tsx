@@ -5,7 +5,7 @@ import { Linkedin } from "lucide-react";
 import { CircleUserRound } from "lucide-react";
 const ContactMe = () => {
   return (
-    <section id='ContactMe'>
+    <section id="ContactMe">
       <div className="contactMaindiv">
         <div
           data-aos="fade-down"
