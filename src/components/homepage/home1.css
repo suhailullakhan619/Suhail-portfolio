@@ -77,8 +77,8 @@
     padding: 40px 20px 0px 20px;
 }
 .heroSectionimage{
-  max-width: 210px;
-  max-height: 210px;
+  max-width: 260px;
+  max-height: 260px;
 }
 }
 @media (min-width:800px) {
