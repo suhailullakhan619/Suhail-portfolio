@@ -1,17 +1,17 @@
 .heroSectionimg{
-  display:'flex';
+  display:flex;
    position:relative;
    flex-direction:row;
-    gap:60;
-    padding:30;
+    gap:60px;
+    padding:30px;
+    box-sizing: border-box;
 }
 .heroSectionimage{
   max-width: 500px;
   max-height: 500px;
   width: 100%;
   height:auto;
-  border-radius: 25px;
-
+  border-radius: 25px;  
 }
 .descreption{
   color: white;
@@ -42,7 +42,7 @@
 }
 .heroSectionimage{
   max-width: 400px;
-  max-height: 250px;
+  max-height: 60vh;
 }
 }
 @media (max-width:425px) {
@@ -67,6 +67,16 @@
   font-size: 14px;
 }
 
+}
+@media (max-height: 450px) {
+  .heroSectionimg {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .heroSectionimage {
+    max-height: 60vh;               /* ✅ KEY FIX */
+  }
 }
 @media (max-width:375px) {
   .heroSectionimg{
