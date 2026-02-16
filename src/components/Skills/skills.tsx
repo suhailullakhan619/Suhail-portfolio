@@ -28,7 +28,7 @@ const Skills = () => {
     {skillName:'Vuetify',skillImg:vuetifyLogo,skillImgAlt:'vuetifyImg'},
     {skillName:'TypeScript',skillImg:typescriptLogo,skillImgAlt:'typescriptImg'},
     {skillName:'Redux',skillImg:reduxLogo,skillImgAlt:'reduxImg'},
-    {skillName:'Amplify',skillImg:AmplifyLogo,skillImgAlt:'amplfyImg'},
+    {skillName:'aws-Amplify',skillImg:AmplifyLogo,skillImgAlt:'amplfyImg'},
     {skillName:'Rest Api',skillImg:restApiLogo,skillImgAlt:'restapiImg'},
     {skillName:'Mongo DB',skillImg:mongodbLogo,skillImgAlt:'mongodbImg'},
     {skillName:'Git',skillImg:gitLogo,skillImgAlt:'gitImg'},
