@@ -14,27 +14,39 @@ import gitLogo from './img/GitLogo.svg';
 import githubLogo from "./img/github logo.svg";
 import nextjsLogo from "./img/nextjs logo.svg";
 import reduxLogo from "./img/redux logo.svg";
-import AmplifyLogo from './img/AmplifyLogo.svg'
-import restApiLogo from './img/restapiLogo.svg'
+import AmplifyLogo from './img/AmplifyLogo.svg';
+import restApiLogo from './img/restapiLogo.svg';
+import TanstackQueryLogo from './img/tanstack Logo.png'
+import graphQlLogo from './img/graphql logo.svg'
+import mysqlLogo from './img/mysql logo.svg'
+import materialUILogo from './img/material logo.svg'
+import vercelLogo from './img/vercel logo.svg'
+import netlifyLogo from './img/netlify logo.svg'
 const Skills = () => {
-  const skills=[
-    {skillName:'Html',skillImg:htmlLogo,skillImgAlt:'htmlImg'},
-    {skillName:'Css',skillImg:cssLogo,skillImgAlt:'cssImg'},
-    {skillName:'JavaScript',skillImg:jslogo,skillImgAlt:'jsImg'},
-    {skillName:'React',skillImg:reactLogo,skillImgAlt:'reactImg'},
-    {skillName:'Vuejs',skillImg:vueLogo,skillImgAlt:'vuejsImg'},
-    {skillName:'Nextjs',skillImg:nextjsLogo,skillImgAlt:'nextjsImg'},
-    {skillName:'TailwindCss',skillImg:tailwindcssLogo,skillImgAlt:'tailwindcssImg'},
-    {skillName:'Vuetify',skillImg:vuetifyLogo,skillImgAlt:'vuetifyImg'},
-    {skillName:'TypeScript',skillImg:typescriptLogo,skillImgAlt:'typescriptImg'},
-    {skillName:'Redux',skillImg:reduxLogo,skillImgAlt:'reduxImg'},
-    {skillName:'aws-Amplify',skillImg:AmplifyLogo,skillImgAlt:'amplfyImg'},
-    {skillName:'Rest Api',skillImg:restApiLogo,skillImgAlt:'restapiImg'},
-    {skillName:'Mongo DB',skillImg:mongodbLogo,skillImgAlt:'mongodbImg'},
-    {skillName:'Git',skillImg:gitLogo,skillImgAlt:'gitImg'},
-    {skillName:'Github',skillImg:githubLogo,skillImgAlt:'githubImg'},
-    {skillName:'Postman',skillImg:postmanLogo,skillImgAlt:'postmanImg'},
-    {skillName:'Figma',skillImg:figmaLogo,skillImgAlt:'figmaImg'},
+  const skills = [
+    { skillName: 'Html', skillImg: htmlLogo, skillImgAlt: 'htmlImg' },
+    { skillName: 'Css', skillImg: cssLogo, skillImgAlt: 'cssImg' },
+    { skillName: 'JavaScript', skillImg: jslogo, skillImgAlt: 'jsImg' },
+    { skillName: 'TypeScript', skillImg: typescriptLogo, skillImgAlt: 'typescriptImg' },
+    { skillName: 'React', skillImg: reactLogo, skillImgAlt: 'reactImg' },
+    { skillName: 'Vuejs', skillImg: vueLogo, skillImgAlt: 'vuejsImg' },
+    { skillName: 'Nextjs', skillImg: nextjsLogo, skillImgAlt: 'nextjsImg' },
+    { skillName: 'TailwindCss', skillImg: tailwindcssLogo, skillImgAlt: 'tailwindcssImg' },
+    { skillName: 'Vuetify', skillImg: vuetifyLogo, skillImgAlt: 'vuetifyImg' },
+    { skillName: 'Material UI', skillImg: materialUILogo, skillImgAlt: 'MaterialUIImg' },
+    { skillName: 'Tanstack Query', skillImg: TanstackQueryLogo, skillImgAlt: 'TanstackQueryImg' },
+    { skillName: 'Mongo DB', skillImg: mongodbLogo, skillImgAlt: 'mongodbImg' },
+    { skillName: 'MySQL', skillImg: mysqlLogo, skillImgAlt: 'MySQLImg' },
+    { skillName: 'aws-Amplify', skillImg: AmplifyLogo, skillImgAlt: 'amplfyImg' },
+    { skillName: 'Rest APIs', skillImg: restApiLogo, skillImgAlt: 'restapiImg' },
+    { skillName: 'Graphql APIs', skillImg: graphQlLogo, skillImgAlt: 'GraphqlImg' },
+    { skillName: 'Redux', skillImg: reduxLogo, skillImgAlt: 'reduxImg' },
+    { skillName: 'Git', skillImg: gitLogo, skillImgAlt: 'gitImg' },
+    { skillName: 'Github', skillImg: githubLogo, skillImgAlt: 'githubImg' },
+    { skillName: 'vercel', skillImg: vercelLogo, skillImgAlt: 'vercelImg' },
+    { skillName: 'netlify', skillImg: netlifyLogo, skillImgAlt: 'netlifyImg' },
+    { skillName: 'Postman', skillImg: postmanLogo, skillImgAlt: 'postmanImg' },
+    { skillName: 'Figma', skillImg: figmaLogo, skillImgAlt: 'figmaImg' },
 
   ]
   return (
@@ -48,13 +60,13 @@ const Skills = () => {
         </div>
 
         <div className="skillslogodiv">
-         {skills.map((item,index)=>{
-          return <div data-aos="zoom-in-up" className="logodiv" key={index}>
-            <p className="Logotag">{item.skillName}</p>
-            <img className="logoimg" src={item.skillImg} alt={item.skillImgAlt} />
-          </div>
-         })}
-          
+          {skills.map((item, index) => {
+            return <div data-aos="zoom-in-up" className="logodiv" key={index}>
+              <p className="Logotag">{item.skillName}</p>
+              <img className="logoimg" src={item.skillImg} alt={item.skillImgAlt} />
+            </div>
+          })}
+
 
           {/* <div data-aos="zoom-in-up" className="logodiv">
             <p className="Logotag">Css</p>

@@ -67,7 +67,7 @@ const Home1 = () => {
                 className=" Name "
               />
               <BlurText
-                text="I am a passionate frontend developer with expertise in building responsive, user-friendly, and visually appealing web applications. I specialize in React, JavaScript, HTML, CSS, and Tailwind CSS, and have hands-on experience integrating APIs and managing state to deliver dynamic, high-performance interfaces."
+                text="I’m a frontend developer focused on building scalable, high-performance, and user-centric web applications. I specialize in creating responsive, visually engaging interfaces with strong attention to usability and performance. I have hands-on experience integrating APIs, managing application state, and delivering seamless cross-device user experiences using modern frontend technologies."
                 delay={150}
                 animateBy="words"
                 direction="top"

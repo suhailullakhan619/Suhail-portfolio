@@ -62,7 +62,7 @@ const Education = () => {
               Percentage - 77.12%
             </div>
             <div className="text-[17px] font-semibold">2018 - 2019</div>
-            <div className="aboutbtndiv">
+            {/* <div className="aboutbtndiv">
               <a
                 href="https://www.stellaeducationalacademy.in/"
                 target="_blank"
@@ -70,7 +70,7 @@ const Education = () => {
               >
                 <button className="aboutbtn">Visit Website</button>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
