@@ -22,7 +22,7 @@ const Home1 = () => {
         <div
           style={{
             width: "100%",
-            height: "100vh",
+            height: "100dvh",
             position: "relative",
             background: "black",
             zIndex: 0,
