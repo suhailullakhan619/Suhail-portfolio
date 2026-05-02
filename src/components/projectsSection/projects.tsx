@@ -37,7 +37,41 @@ const Projects = () => {
 
               <div className="flex flex-col gap-[15px]">
                 <p className="text-[17px] font-extrabold">Personal Project </p>
+                
+                {/* NEW PROJECTS ADDED BELOW */}
+
                 <div className="contentdiv">
+                  <div>🔗</div>
+                  <p>
+                    <a
+                      href="https://suhail-asset-management-application.vercel.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="text-[17px] font-semibold border-b-[2px] border-[#011D56] py-[12px] cursor-pointer">
+                        Asset-BMS -
+                      </span>
+                    </a>{" "}
+                    Enterprise asset management dashboard with real-time tracking, RBAC, and workflow automation with optimized data handling (Vue.js, GraphQL).
+                  </p>
+                </div>
+
+                <div className="contentdiv">
+                  <div>🔗</div>
+                  <p>
+                    <a
+                      href="https://suhail-chatapp-one.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="text-[17px] font-semibold border-b-[2px] border-[#011D56] py-[12px] cursor-pointer">
+                        Chat Application -
+                      </span>
+                    </a>{" "}
+                    Real-time chat interface with dynamic UI updates, persistent state management, and efficient rendering (Vue.js, Vuetify, GraphQL).
+                  </p>
+                </div>
+<div className="contentdiv">
                   <div>🔗</div>
                   <p>
                     <a
@@ -54,7 +88,7 @@ const Projects = () => {
                     performance and scalability
                   </p>
                 </div>
-
+                
                 <div className="contentdiv">
                   <div>🔗</div>
                   <p>
@@ -124,56 +158,8 @@ const Projects = () => {
                   </p>
                 </div>
 
-                <div className="contentdiv">
-                  <div>🔗</div>
-                  <p>
-                    <a
-                      href=" https://suhailullakhan619.github.io/YouTube-UI/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <span className="text-[17px] font-semibold border-b-[2px] border-[#011D56] py-[12px] cursor-pointer">
-                        YouTube UI -
-                      </span>
-                    </a>{" "}
-                    Responsive interface replicating modern video platform
-                    design using plain HTML and CSS.
-                  </p>
-                </div>
 
-                <div className="contentdiv">
-                  <div>🔗</div>
-                  <p>
-                    <a
-                      href="https://suhailtodo-list.netlify.app/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <span className="text-[17px] font-semibold border-b-[2px] border-[#011D56] py-[12px] cursor-pointer">
-                        To-Do List App -
-                      </span>
-                    </a>{" "}
-                    Simple yet efficient task manager demonstrating CRUD
-                    operations.
-                  </p>
-                </div>
-
-                <div className="contentdiv">
-                  <div>🔗</div>
-                  <p>
-                    <a
-                      href="https://suhailullakhan619.github.io/Simple-Calculator/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <span className="text-[17px] font-semibold border-b-[2px] border-[#011D56] py-[12px] cursor-pointer">
-                        Calculator App -
-                      </span>
-                    </a>{" "}
-                    Interactive calculator built using HTML, CSS, and
-                    JavaScript.
-                  </p>
-                </div>
+               
               </div>
             </div>
           </div>

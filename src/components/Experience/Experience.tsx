@@ -1,5 +1,6 @@
 import "./Experience.css";
 import prinstonlogo from "./img/image.png";
+import mobil80logo from './img/mobil80Image.png'
 const Experience = () => {
   return (
     <section id="Experience">
@@ -11,6 +12,72 @@ const Experience = () => {
           Experience
         </div>
 
+        <div className="expdiv">
+          <div data-aos="fade-right" className="logodiv">
+            <img className="prinstonlogo" src={mobil80logo} alt="logo" />
+          </div>
+          <div data-aos="zoom-in" className="aboutExp">
+            <p className="text-[20px] font-extrabold max-w-[260px] sm:max-w-full">
+              Experience
+            </p>
+            <p className="text-[17px] font-semibold max-w-[260px] sm:max-w-full">
+              Frontend Developer
+            </p>
+            <p className="text-[17px] ">
+              - Mobil80 Solutions and Services Pvt. Ltd.
+            </p>
+            <p className="text-[17px] font-semibold">12/2025 - Present</p>
+
+            <div className="internshipDes">
+              <div className="contentdiv">
+                <div>🚀</div>
+                <p>
+                  <span className="text-[17px] font-semibold">
+                    Built and maintained
+                  </span>{" "}
+                  enterprise portals (EZTRAK, QR Portal, EZTRAK-BMS) using{" "}
+                  <span className="text-[17px] font-semibold">
+                    Vue.js and React.js
+                  </span>{" "}
+                  delivering production-ready features for real-time data workflows.
+                </p>
+              </div>
+
+              <div className="contentdiv">
+                <div>🔐</div>
+                <p>
+                  <span className="text-[17px] font-semibold">
+                    Implemented Role-Based Access Control (RBAC)
+                  </span>{" "}
+                  with dynamic UI rendering, improving application security and reducing
+                  unauthorized access issues by approximately 30%.
+                </p>
+              </div>
+
+              <div className="contentdiv">
+                <div>🔗</div>
+                <p>
+                  <span className="text-[17px] font-semibold">
+                    Integrated GraphQL and REST APIs
+                  </span>{" "}
+                  to power real-time dashboards, improving data accessibility and
+                  reducing API response time.
+                </p>
+              </div>
+
+              <div className="contentdiv">
+                <div>⚡</div>
+                <p>
+                  <span className="text-[17px] font-semibold">
+                    Optimized frontend performance
+                  </span>{" "}
+                  using lazy loading, memoization, and efficient state management,
+                  reducing unnecessary re-renders and improving application load time.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="expdiv">
           <div data-aos="fade-right" className="logodiv">
             <img className="prinstonlogo" src={prinstonlogo} alt="logo" />

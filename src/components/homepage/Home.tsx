@@ -1,11 +1,11 @@
-import { useEffect } from "react";
-import Particles from "../animation/Particles";
-import BlurText from "../animation/BlurText";
-import { RainbowButton } from "../ui/rainbow-button";
-import heroSectionimg from "../../assets/heroSectionimg.png";
+import {  useEffect } from "react";
 import "./home1.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Particles from "../animation/Particles";
+import BlurText from "../animation/BlurText";
+import { RainbowButton } from "../ui/rainbow-button";
+import heroSectionimg from '../../assets/heroSectionimg.png'
 
 const Home1 = () => {
   useEffect(() => {
@@ -75,7 +75,7 @@ const Home1 = () => {
               />
 
               <a
-                href="https://drive.google.com/file/d/1dkoWmpehZFTObboqLXfnfHu57dpoWLDw/view?usp=sharing"
+                href="https://drive.google.com/file/d/1vcCDOwBXLVcI0mJNzoAykxi40XftZ8pq/view?usp=sharing"
                 target="_blank"
                 rel="Suhail Resume"
               >
