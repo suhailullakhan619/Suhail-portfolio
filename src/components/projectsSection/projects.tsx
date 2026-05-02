@@ -25,7 +25,7 @@ const Projects = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <span className="text-[17px] font-semibold border-b-[2px] border-[#011D56] py-[12px] cursor-pointer">
+                      <span className="text-[17px] font-semibold border-b-2 border-[#011D56] py-3 cursor-pointer">
                         Sports Shop App -
                       </span>
                     </a>{" "}
@@ -37,7 +37,7 @@ const Projects = () => {
 
               <div className="flex flex-col gap-[15px]">
                 <p className="text-[17px] font-extrabold">Personal Project </p>
-                
+
                 {/* NEW PROJECTS ADDED BELOW */}
 
                 <div className="contentdiv">
@@ -48,7 +48,7 @@ const Projects = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <span className="text-[17px] font-semibold border-b-[2px] border-[#011D56] py-[12px] cursor-pointer">
+                      <span className="text-[17px] font-semibold border-b-2 border-[#011D56] py-3 cursor-pointer">
                         Asset-BMS -
                       </span>
                     </a>{" "}
@@ -64,14 +64,14 @@ const Projects = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <span className="text-[17px] font-semibold border-b-[2px] border-[#011D56] py-[12px] cursor-pointer">
+                      <span className="text-[17px] font-semibold border-b-2 border-[#011D56] py-3 cursor-pointer">
                         Chat Application -
                       </span>
                     </a>{" "}
                     Real-time chat interface with dynamic UI updates, persistent state management, and efficient rendering (Vue.js, Vuetify, GraphQL).
                   </p>
                 </div>
-<div className="contentdiv">
+                <div className="contentdiv">
                   <div>🔗</div>
                   <p>
                     <a
@@ -79,7 +79,7 @@ const Projects = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <span className="text-[17px] font-semibold border-b-[2px] border-[#011D56] py-[12px] cursor-pointer">
+                      <span className="text-[17px] font-semibold border-b-2 border-[#011D56] py-3 cursor-pointer">
                         E-Commerce Website -
                       </span>
                     </a>{" "}
@@ -88,7 +88,7 @@ const Projects = () => {
                     performance and scalability
                   </p>
                 </div>
-                
+
                 <div className="contentdiv">
                   <div>🔗</div>
                   <p>
@@ -97,7 +97,7 @@ const Projects = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <span className="text-[17px] font-semibold border-b-[2px] border-[#011D56] py-[12px] cursor-pointer">
+                      <span className="text-[17px] font-semibold border-b-2 border-[#011D56] py-3 cursor-pointer">
                         Chatbot App -
                       </span>
                     </a>{" "}
@@ -114,7 +114,7 @@ const Projects = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <span className="text-[17px] font-semibold border-b-[2px] border-[#011D56] py-[12px] cursor-pointer">
+                      <span className="text-[17px] font-semibold border-b-2 border-[#011D56] py-3 cursor-pointer">
                         Visdum Site -
                       </span>
                     </a>{" "}
@@ -131,7 +131,7 @@ const Projects = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <span className="text-[17px] font-semibold border-b-[2px] border-[#011D56] py-[12px] cursor-pointer">
+                      <span className="text-[17px] font-semibold border-b-2 border-[#011D56] py-3 cursor-pointer">
                         PSS-Site -
                       </span>
                     </a>{" "}
@@ -148,7 +148,7 @@ const Projects = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <span className="text-[17px] font-semibold border-b-[2px] border-[#011D56] py-[12px] cursor-pointer">
+                      <span className="text-[17px] font-semibold border-b-2 border-[#011D56] py-3 cursor-pointer">
                         PW Website -
                       </span>
                     </a>{" "}
@@ -159,7 +159,7 @@ const Projects = () => {
                 </div>
 
 
-               
+
               </div>
             </div>
           </div>

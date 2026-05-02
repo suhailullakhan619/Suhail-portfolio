@@ -75,7 +75,7 @@ const Home1 = () => {
               />
 
               <a
-                href="https://drive.google.com/file/d/1vcCDOwBXLVcI0mJNzoAykxi40XftZ8pq/view?usp=sharing"
+                href="https://drive.google.com/file/d/1oMqx4qqMLDFyReuFTWuQPqYq-bRd-eFt/view?usp=sharing"
                 target="_blank"
                 rel="Suhail Resume"
               >
